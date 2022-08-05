@@ -8,12 +8,15 @@
 </head>
 <body>
     <h1>Hola Familia!</h1>
-    {% for familiar in data_familia %}
-                <p>{{ familiar.id }}</p>
-                <p>{{ familiar.nombre }}</p>
-                <p>{{ familiar.apellido}}</p>
-                <p>{{ familiar.fechaCumple}}</p>
-                <p>{{ familiar.edad}}</p>
-    {% endfor %}
+    <ul>
+        {% for familiar in data_familia %}
+                <li>{{ familiar.id }}</li>
+                <li>{{ familiar.nombre }}</li>
+                <li>{{ familiar.apellido}}</li>
+                <li>{{ familiar.fechaCumple}}</li>
+                <li>{{ familiar.edad}}</li>
+        {% endfor %}
+    </ul>
+    
 </body>
 </html>

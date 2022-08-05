@@ -55,7 +55,7 @@ ROOT_URLCONF = 'MVT_Santiago.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/pc1/OneDrive/Escritorio/MVT_Santiago_Ribecca/MVT_Santiago/MVT_Santiago/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
